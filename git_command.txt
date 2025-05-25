@@ -1,0 +1,6 @@
+・git status
+confirm whether commit or not.
+
+・git add --all
+
+commit all changes.
