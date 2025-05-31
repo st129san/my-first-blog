@@ -4,3 +4,7 @@ confirm whether commit or not.
 ・git add --all
 
 commit all changes.
+
+・git push
+
+if you modified a file or add file, don't forget to execute this command.
