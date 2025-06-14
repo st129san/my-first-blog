@@ -1,5 +1,0 @@
-Name:administrator
-PassWord:ad147ep_WG
-
-use the command below and create superuser.
-python manage.py createsuperuser
