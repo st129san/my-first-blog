@@ -9,6 +9,12 @@
     </head>
     <body>
         <div class="page-header">
+            <!--"glyphicon glyphicon-plus" shows the plus sign on the top right of page-->
+            <!--When the plus sign is clicked, move to post add page-->
+            <!--not to edit by the person not aadministrator-->
+            {% if user.is_authenticated %}
+                <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>>
+            {% endif %}
             <h1><a href="/">My First Blog</a></h1>
         </div>
         <div class="content container">
